@@ -17,7 +17,6 @@ netsh interface ipv4 add dnsservers name="Wi-Fi" address=94.140.15.15 index=2 va
 netsh interface ipv6 set dnsservers name="Wi-Fi" source=static address="2a10:50c0::ad1:ff" primary validate=no
 netsh interface ipv6 add dnsservers name="Wi-Fi" address="2a10:50c0::ad2:ff" index=2 validate=no
 
-REM Adicionar configuração para outros adaptadores (mesma lógica)
 REM Adaptador Ethernet
 netsh interface ipv4 set dnsservers name="Ethernet" source=static address=94.140.14.14 primary validate=no
 netsh interface ipv4 add dnsservers name="Ethernet" address=94.140.15.15 index=2 validate=no

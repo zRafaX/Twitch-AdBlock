@@ -37,7 +37,7 @@ Mobile (Android)
 
 2. Acesse as configurações e ative a URL de proxy personalizada:
 
-<img src="https://raw.githubusercontent.com/zRafaX/Adblock-for-all-platforms/refs/heads/main/Assets/01.png" alt="Configuração 2" width="300" style="margin:10px"/>
+<img src="https://raw.githubusercontent.com/zRafaX/Twitch-AdBlock/refs/heads/main/Assets/01.png" alt="Configuração 2" width="300" style="margin:10px"/>
 
 
 Proxy:
