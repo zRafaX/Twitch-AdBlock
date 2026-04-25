@@ -20,7 +20,7 @@ Windows (10/11)
 3. Se o script não funcionar, adicione o DNS manualmente conforme o tutorial em: [AdGuard DNS](https://adguard-dns.io/pt_br/public-dns.html)
 
 **Servidores padrão:**
-AdGuard DNS bloqueia anúncios e rastreadores.
+AdGuard DNS bloqueia anúncios e rastreadores..
 
 ```bash
 IPv4: 94.140.14.14 | 94.140.15.15
