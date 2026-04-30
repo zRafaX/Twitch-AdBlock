@@ -3,6 +3,7 @@
 [![Plataformas](https://img.shields.io/badge/Plataformas-Windows%20%7C%20Android-lightgrey)]()
 
 Este repositório reúne as melhores estratégias para bloquear anúncios em todas as camadas possíveis: DNS, aplicativos e extensões de navegador. O objetivo é oferecer uma experiência livre de anúncios no Windows e Android, especialmente contra os anúncios abusivos.
+
 **Nível DNS** – Bloqueia 70% dos anúncios em todo o sistema.
 
 **Nível App (Android)** – Alternativa ao app oficial da Twitch em código aberto com a possibilidade de adicionar um proxy personalizado.
