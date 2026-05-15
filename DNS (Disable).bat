@@ -10,33 +10,33 @@ IF %ERRORLEVEL% NEQ 0 (
     EXIT /B
 )
 
-REM Adaptador Wi-Fi
+REM Wi-Fi
 netsh interface ipv4 set dnsservers name="Wi-Fi" source=dhcp
 netsh interface ipv6 set dnsservers name="Wi-Fi" source=dhcp
 
-REM Adaptador Ethernet
+REM Ethernet
 netsh interface ipv4 set dnsservers name="Ethernet" source=dhcp
 netsh interface ipv6 set dnsservers name="Ethernet" source=dhcp
 
-REM Adaptador Ethernet 2
+REM Ethernet 2
 netsh interface ipv4 set dnsservers name="Ethernet 2" source=dhcp
 netsh interface ipv6 set dnsservers name="Ethernet 2" source=dhcp
 
-REM Adaptador Wi-Fi 2
+REM Wi-Fi 2
 netsh interface ipv4 set dnsservers name="Wi-Fi 2" source=dhcp
 netsh interface ipv6 set dnsservers name="Wi-Fi 2" source=dhcp
 
-REM Adaptador Bluetooth Network Connection
+REM Bluetooth Network Connection
 netsh interface ipv4 set dnsservers name="Bluetooth Network Connection" source=dhcp
 netsh interface ipv6 set dnsservers name="Bluetooth Network Connection" source=dhcp
 
-REM Adaptador Local Area Connection
+REM Local Area Connection
 netsh interface ipv4 set dnsservers name="Local Area Connection" source=dhcp
 netsh interface ipv6 set dnsservers name="Local Area Connection" source=dhcp
 
-REM Adaptador Local Area Connection* 1 (Wi-Fi Direct)
+REM Local Area Connection* 1 (Wi-Fi Direct)
 netsh interface ipv4 set dnsservers name="Local Area Connection* 1" source=dhcp
 netsh interface ipv6 set dnsservers name="Local Area Connection* 1" source=dhcp
 
-:: ==================== Limpar cache DNS ====================
+:: ==================== Clean DNS ====================
 ipconfig /flushdns
