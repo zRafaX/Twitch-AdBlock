@@ -1,25 +1,25 @@
-# 🛡️ AdBlock - Twitch (Android e Windows)
+# 🛡️ AdBlock - Twitch (Android & Windows)
 
-[![Plataformas](https://img.shields.io/badge/Plataformas-Windows%20%7C%20Android-lightgrey)]()
+[![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20Android-lightgrey)]()
 
-Este repositório reúne as melhores estratégias para bloquear anúncios em todas as camadas possíveis: DNS, aplicativos e extensões de navegador. O objetivo é oferecer uma experiência livre de anúncios no Windows e Android, especialmente contra os anúncios abusivos.
+This repository brings together the best strategies to block ads at every possible layer: DNS, applications, and browser extensions. The goal is to provide an ad-free experience on both Windows and Android, especially against intrusive advertisements.
 
-**Nível DNS** – Bloqueia 70% dos anúncios em todo o sistema.
+**DNS Level** – Blocks up to 70% of ads system-wide.
 
-**Nível App (Android)** – Alternativa ao app oficial da Twitch em código aberto com a possibilidade de adicionar um proxy personalizado.
+**App Level (Android)** – Open-source alternative to the official Twitch app with support for adding a custom proxy.
 
 ---
 
-Windows (10/11)
+# Windows (10/11)
 
-1. Execute o script DNS.bat para adicionar o DNS personalizado do AdGuard.
+1. Run the `DNS.bat` script to apply the custom AdGuard DNS.
 
-2. Caso queira desativar e voltar às configurações padrão, execute o script desativar.bat
+2. If you want to disable it and restore the default settings, run the `disable.bat` script.
 
-3. Se o script não funcionar, adicione o DNS manualmente conforme o tutorial em: [AdGuard DNS](https://adguard-dns.io/pt_br/public-dns.html)
+3. If the script does not work, manually configure the DNS by following the tutorial at: [AdGuard DNS](https://adguard-dns.io/en/public-dns.html)
 
-**Servidores padrão:**
-AdGuard DNS bloqueia anúncios e rastreadores..
+### **Default Servers**
+AdGuard DNS blocks ads and trackers.
 
 ```bash
 IPv4: 94.140.14.14 | 94.140.15.15
@@ -29,29 +29,32 @@ IPv6: 2a10:50c0::ad1:ff | 2a10:50c0::ad2:ff
 
 ---
 
-Mobile (Android)
+# Mobile (Android)
 
-1. Instale o Xtra no seu android [Download](https://github.com/crackededed/Xtra/releases)
+1. Install Xtra on your Android device: [Download](https://github.com/crackededed/Xtra/releases)
 
+2. Open the settings and enable the custom proxy URL:
 
-2. Acesse as configurações e ative a URL de proxy personalizada:
+<img src="https://raw.githubusercontent.com/zRafaX/Twitch-AdBlock/refs/heads/main/Assets/01.png" alt="Configuration 2" width="300" style="margin:10px"/>
 
-<img src="https://raw.githubusercontent.com/zRafaX/Twitch-AdBlock/refs/heads/main/Assets/01.png" alt="Configuração 2" width="300" style="margin:10px"/>
-
-
-Proxy:
+### Proxy
 
 ```bash
 https://as.luminous.dev/live/$channel?allow_source=true&allow_audio_only=true&fast_bread=true
 ```
 
-Todos os anúncios serão bloqueados. Caso pare de funcionar, atualize para um proxy mais recente.
+All ads will be blocked. If it stops working, update to a newer proxy.
 
-## Complemento para navegadores
+---
 
-#### Extensão:
-1. Extensão Adguard: [Download](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?hl=pt-BR)
-1. Extensão Adguard (Extra): [Download](https://chromewebstore.google.com/detail/adguard-extra/gkeojjjcdcopjkbelgbcpckplegclfeg)
+# Browser Extension Add-on
 
+### Extensions
+1. AdGuard Extension: [Download](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?hl=en)
+2. AdGuard Extra Extension: [Download](https://chromewebstore.google.com/detail/adguard-extra/gkeojjjcdcopjkbelgbcpckplegclfeg)
 
-Creditos: [Xtra](https://github.com/crackededed/Xtra) e [AdGuard](https://adguard.com)
+---
+
+## Credits
+
+[Xtra](https://github.com/crackededed/Xtra) and [AdGuard](https://adguard.com)
